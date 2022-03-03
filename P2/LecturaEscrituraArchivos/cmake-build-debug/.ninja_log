@@ -1,0 +1,23 @@
+# ninja log v5
+506	549	1646250826289826905	LecturaEscrituraArchivos	3d609e005b491272
+0	506	1646250826249827068	CMakeFiles/LecturaEscrituraArchivos.dir/main.cpp.o	3d7d97b85076df5a
+0	613	1646251256644366173	CMakeFiles/LecturaEscrituraArchivos.dir/main.cpp.o	3d7d97b85076df5a
+613	665	1646251256696366024	LecturaEscrituraArchivos	3d609e005b491272
+1	599	1646251289788272338	CMakeFiles/LecturaEscrituraArchivos.dir/main.cpp.o	3d7d97b85076df5a
+599	656	1646251289848272170	LecturaEscrituraArchivos	3d609e005b491272
+1	561	1646251456043827899	CMakeFiles/LecturaEscrituraArchivos.dir/main.cpp.o	3d7d97b85076df5a
+561	612	1646251456095827766	LecturaEscrituraArchivos	3d609e005b491272
+0	559	1646251467619798373	CMakeFiles/LecturaEscrituraArchivos.dir/main.cpp.o	3d7d97b85076df5a
+559	611	1646251467671798241	LecturaEscrituraArchivos	3d609e005b491272
+1	552	1646251482599760407	CMakeFiles/LecturaEscrituraArchivos.dir/main.cpp.o	3d7d97b85076df5a
+553	602	1646251482647760285	LecturaEscrituraArchivos	3d609e005b491272
+0	569	1646251530079641775	CMakeFiles/LecturaEscrituraArchivos.dir/main.cpp.o	3d7d97b85076df5a
+569	618	1646251530127641656	LecturaEscrituraArchivos	3d609e005b491272
+1	585	1646251569495545148	CMakeFiles/LecturaEscrituraArchivos.dir/main.cpp.o	3d7d97b85076df5a
+585	636	1646251569543545032	LecturaEscrituraArchivos	3d609e005b491272
+0	568	1646251598719474510	CMakeFiles/LecturaEscrituraArchivos.dir/main.cpp.o	3d7d97b85076df5a
+568	619	1646251598767474394	LecturaEscrituraArchivos	3d609e005b491272
+0	588	1646251711831208288	CMakeFiles/LecturaEscrituraArchivos.dir/main.cpp.o	3d7d97b85076df5a
+588	632	1646251711875208187	LecturaEscrituraArchivos	3d609e005b491272
+0	552	1646251764871086914	CMakeFiles/LecturaEscrituraArchivos.dir/main.cpp.o	3d7d97b85076df5a
+552	596	1646251764915086814	LecturaEscrituraArchivos	3d609e005b491272
