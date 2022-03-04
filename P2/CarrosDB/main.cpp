@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <utility> // std::pair
+// #include <utility> // std::pair
 #include <stdexcept> // std::runtime_error
 #include <sstream> // std::stringstream
 #include <vector>
@@ -10,13 +10,13 @@
 using namespace std;
 
 int main() {
-    string filename = "foo.csv";
+    string filename = "cars.csv";
     vector<Car> cars;
     bool flag = true;
     for (int i = 0; i < 2; i++) {
         int year = i + 2020;
         string manufacturer = "BMW";
-        float cost = 350.5 + i;
+        double cost = 350.5 + i;
         double price = 2450.56 + i;
         Car temp(i, manufacturer, year, cost, price, flag);
         cars.push_back(temp);
@@ -67,7 +67,7 @@ int main() {
         int _id;
         string _brand;
         int _year;
-        float _cost;
+        double _cost;
         double _price;
         bool _status;
         while (getline(ss, value, ',')) {
@@ -104,9 +104,9 @@ int main() {
     }
     myFileInput.close();
 
-    for (int i = 0; i < reading_cars.size(); i++) {
-        cout << reading_cars[i].id << "," << reading_cars[i].brand << "," << reading_cars[i].year << ","
-             << reading_cars[i].cost << "," << reading_cars[i].price << "," << reading_cars[i].enabled << endl;
+    for (auto &reading_car: reading_cars) {
+        cout << reading_car.id << "," << reading_car.brand << "," << reading_car.year << ","
+             << reading_car.cost << "," << reading_car.price << "," << reading_car.enabled << endl;
     }
     return 0;
 }

@@ -9,18 +9,18 @@ public:
     int id;
     string brand;
     int year;
-    float cost;
+    double cost;
     double price;
     bool enabled;
 
-    Car(int &x, string &y, int &z, float &a, double &b, bool &c);
+    Car(int &x, string &y, int &z, double &a, double &b, bool &c);
 
     ~Car();
 
 private:
 };
 
-Car::Car(int &x, string &y, int &z, float &a, double &b, bool &c) {
+Car::Car(int &x, string &y, int &z, double &a, double &b, bool &c) {
     id = x;
     brand = y;
     year = z;
@@ -30,3 +30,5 @@ Car::Car(int &x, string &y, int &z, float &a, double &b, bool &c) {
 }
 
 Car::~Car() = default;
+
+
