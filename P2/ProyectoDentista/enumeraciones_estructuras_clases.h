@@ -36,19 +36,22 @@ enum OpcionesCliente {
 
 //ESTRUCTURAS
 
-struct Insumos {
+class Insumos {
+public:
     string nombre;
     float costo;
     int id;
 
 };
-struct Operaciones {
+class Operaciones {
+public:
     string nombre;
     float total;
     vector<Insumos> insum;
 };
 
-struct Paciente {
+class Paciente {
+public:
     int id;
     string nombre;
     string telefono;
