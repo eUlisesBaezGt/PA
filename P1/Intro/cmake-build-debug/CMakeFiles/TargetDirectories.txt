@@ -1,0 +1,3 @@
+C:/Users/Ulises/OneDrive - up.edu.mx/Carrera/2 Semestre/PA/1 Parc/Intro/cmake-build-debug/CMakeFiles/Intro.dir
+C:/Users/Ulises/OneDrive - up.edu.mx/Carrera/2 Semestre/PA/1 Parc/Intro/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Ulises/OneDrive - up.edu.mx/Carrera/2 Semestre/PA/1 Parc/Intro/cmake-build-debug/CMakeFiles/rebuild_cache.dir
