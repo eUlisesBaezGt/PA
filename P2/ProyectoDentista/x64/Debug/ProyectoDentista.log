@@ -1,7 +1,0 @@
-﻿  Source.cpp
-C:\Users\Ulises\Desktop\PA\P2\ProyectoDentista\Metodos.h(70,8): warning C4101: '_status': unreferenced local variable
-C:\Users\Ulises\Desktop\PA\P2\ProyectoDentista\Metodos.h(149,21): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Ulises\Desktop\PA\P2\ProyectoDentista\Metodos.h(182,37): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Ulises\Desktop\PA\P2\ProyectoDentista\Metodos.h(286,18): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Ulises\Desktop\PA\P2\ProyectoDentista\Metodos.h(329,10): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1252)
-  ProyectoDentista.vcxproj -> C:\Users\Ulises\Desktop\PA\P2\ProyectoDentista\x64\Debug\ProyectoDentista.exe
