@@ -100,8 +100,8 @@ void Clientes(vector<Paciente>& list_u)
 			if (ss.peek() == ',') ss.ignore();
 			colIdx++;
 		}
-        Paciente temp(_id, _nombre, _telefono, _correo, _edad, _sexo, _alergias, _status);
-        list_u.push_back(temp);
+        //Paciente temp(_id, _nombre, _telefono, _correo, _edad, _sexo, _alergias, _status);
+        // list_u.push_back(temp);
 	}
 	myFileInput.close();
 }
