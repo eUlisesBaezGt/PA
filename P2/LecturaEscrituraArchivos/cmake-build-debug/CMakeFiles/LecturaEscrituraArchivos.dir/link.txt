@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/LecturaEscrituraArchivos.dir/main.cpp.o -o LecturaEscrituraArchivos 

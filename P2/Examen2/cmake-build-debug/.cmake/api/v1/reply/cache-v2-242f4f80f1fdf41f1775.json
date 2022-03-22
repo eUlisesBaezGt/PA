@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/draco/Desktop/PA/P2/LecturaEscrituraArchivos/cmake-build-debug"
+			"value" : "/home/eubgt/Desktop/PA/P2/Examen2/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -103,7 +103,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/draco/clion-2021.3.3/bin/cmake/linux/bin/cmake"
+			"value" : "/home/eubgt/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/cmake/linux/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -115,7 +115,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/draco/clion-2021.3.3/bin/cmake/linux/bin/cpack"
+			"value" : "/home/eubgt/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/cmake/linux/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -127,7 +127,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/draco/clion-2021.3.3/bin/cmake/linux/bin/ctest"
+			"value" : "/home/eubgt/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/cmake/linux/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -579,7 +579,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/draco/Desktop/PA/P2/LecturaEscrituraArchivos"
+			"value" : "/home/eubgt/Desktop/PA/P2/Examen2"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -631,7 +631,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "/home/draco/clion-2021.3.3/bin/ninja/linux/ninja"
+			"value" : "/home/eubgt/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/ninja/linux/ninja"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -819,7 +819,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "LecturaEscrituraArchivos"
+			"value" : "Examen2"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -863,7 +863,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/draco/clion-2021.3.3/bin/cmake/linux/share/cmake-3.21"
+			"value" : "/home/eubgt/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/cmake/linux/share/cmake-3.21"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1102,7 +1102,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "LecturaEscrituraArchivos_BINARY_DIR",
+			"name" : "Examen2_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1111,10 +1111,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/draco/Desktop/PA/P2/LecturaEscrituraArchivos/cmake-build-debug"
+			"value" : "/home/eubgt/Desktop/PA/P2/Examen2/cmake-build-debug"
 		},
 		{
-			"name" : "LecturaEscrituraArchivos_IS_TOP_LEVEL",
+			"name" : "Examen2_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1126,7 +1126,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "LecturaEscrituraArchivos_SOURCE_DIR",
+			"name" : "Examen2_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1135,7 +1135,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/draco/Desktop/PA/P2/LecturaEscrituraArchivos"
+			"value" : "/home/eubgt/Desktop/PA/P2/Examen2"
 		}
 	],
 	"kind" : "cache",
