@@ -1,4 +1,5 @@
 #include <string>
+#include <utility>
 #include "Animal.h"
 
 Animal::Animal()
@@ -14,10 +15,10 @@ Animal::Animal()
 Animal::Animal(int id_, std::string name_, float age_, float weight_, std::string color_, char gender_)
 {
 	this->_id = id_;
-	this->name = name_;
+	this->name = move(name_);
 	this->_age = age_;
 	this->_weight = weight_;
-	this->_color = color_;
+	this->_color = move(color_);
 	this->_gender = gender_;
 }
 

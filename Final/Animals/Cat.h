@@ -4,5 +4,5 @@
 class Cat : public Animal
 {
 	std::string breed;
-	int whiskers;
+	// int whiskers;
 };
