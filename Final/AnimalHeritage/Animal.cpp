@@ -27,52 +27,22 @@ int Animal::get_id() { return _id; }
 
 void Animal::set_id(int id_) { this->_id = id_; }
 
-std::string Animal::get_name()
-{
-	return _name;
-}
+std::string Animal::get_name() { return _name; }
 
-void Animal::set_name(std::string name_)
-{
-	this->_name = move(name_);
-}
+void Animal::set_name(std::string name_) { this->_name = move(name_); }
 
-char Animal::get_gender()
-{
-	return _gender;
-}
+char Animal::get_gender() { return _gender; }
 
-void Animal::set_gender(char gender_)
-{
-	this->_gender = gender_;
-}
+void Animal::set_gender(char gender_) { this->_gender = gender_; }
 
-float Animal::get_age()
-{
-	return _age;
-}
+float Animal::get_age() { return _age; }
 
-void Animal::set_age(float age_)
-{
-	this->_age = age_;
-}
+void Animal::set_age(float age_) { this->_age = age_; }
 
-float Animal::get_weight()
-{
-	return _weight;
-}
+float Animal::get_weight() { return _weight; }
 
-void Animal::set_weight(float weight_)
-{
-	this->_weight = weight_;
-}
+void Animal::set_weight(float weight_) { this->_weight = weight_; }
 
-std::string Animal::get_color()
-{
-	return _color;
-}
+std::string Animal::get_color() { return _color; }
 
-void Animal::set_color(std::string color_)
-{
-	this->_color = std::move(color_);
-}
+void Animal::set_color(std::string color_) { this->_color = std::move(color_); }

@@ -6,14 +6,14 @@ class Dog : public Animal
 public:
 	Dog();
 	~Dog();
-	Dog(Animal, std::string, bool);
-	Dog(int, std::string, char, float, float, std::string, std::string, bool);
+	Dog(Animal, std::string, std::string);
+	Dog(int, std::string, char, float, float, std::string, std::string, std::string);
 
 	std::string get_breed();
 	void set_breed(std::string);
 
 	std::string get_tail();
-	void set_tail(bool);
+	void set_tail(std::string);
 
 private:
 	std::string _breed;

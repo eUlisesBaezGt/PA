@@ -1,50 +1,61 @@
 #include "Dog.h"
 
+#include <iostream>
 #include <utility>
 
-
-Dog::Dog(int id_, std::string name_, char gender_, float age_, float weight_, std::string color_, std::string breed_,
-         bool tail_) : Animal{id_, name_, gender_, age_, weight_, color_}
+Dog::Dog() : Animal()
 {
-	_breed = std::move(breed_);
-	_tail = tail_;
-}
+	this->set_id(-1);
+	this->set_name(" ");
+	this->set_gender(' ');
+	this->set_age(-0.0f);
+	this->set_weight(-0.0f);
+	this->set_color(" ");
 
-
-Dog::Dog() : Animal{}
-{
-	_breed = " ";
-	_tail = false;
+	this->set_breed(" ");
+	this->set_tail("N");
 }
 
 Dog::~Dog()
 = default;
 
-Dog::Dog(Animal animal, std::string breed_, bool tail_) : Anima
+Dog::Dog(Animal animal, std::string breed_, std::string tail_) : Animal{
+	animal.get_id(), animal.get_name(), animal.get_gender(), animal.get_age(), animal.get_weight(), animal.get_color()
+}
 {
-	set_id(animal.get_id());
-	set_name(animal.get_name());
-	set_gender(animal.get_gender());
-	set_age(animal.get_age());
-	set_weight(animal.get_weight());
-	set_color(animal.get_color());
 	this->_breed = std::move(breed_);
-	this->_tail = tail_;
+	set_tail(tail_);
 }
 
-//
-//Dog::Dog(Animal, std::string breed_, bool tail_)
-//{
-//	this->_breed = move(breed_);
-//	this->_tail = tail_;
-//}
+
+Dog::Dog(int id_, std::string name_, char gender_, float age_, float weight_, std::string color_, std::string breed_,
+         std::string tail_) : Animal{id_, name_, gender_, age_, weight_, color_}
+{
+	this->_breed = std::move(breed_);
+	set_tail(tail_);
+}
 
 
-//Dog::Dog(const int id_, std::string name_, float age_, float weight_, std::string color_, char gender_,
-//	std::string breed_,
-//	const bool tail_, bool ears_) : Animal(id_, move(name_), age_, weight_, move(color_), gender_)
-//{
-//	breed = move(breed_);
-//	tail = tail_;
-//	ears = ears_;
-//}
+std::string Dog::get_breed() { return _breed; }
+
+void Dog::set_breed(std::string breed_) { this->_breed = breed_; }
+
+std::string Dog::get_tail()
+{
+	std::string tail;
+	if (this->_tail)
+		tail = "yes";
+	else if (!this->_tail)
+		tail = "no";
+	else tail = " ";
+	return tail;
+}
+
+void Dog::set_tail(std::string tail_)
+{
+	if (tail_ == "Y")
+		this->_tail = true;
+	else if (tail_ == "N")
+		this->_tail = false;
+	else std::cout << "Invalid input for tail." << std::endl;
+}
