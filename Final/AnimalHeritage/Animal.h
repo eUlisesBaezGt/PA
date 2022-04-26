@@ -7,6 +7,7 @@ public:
 	Animal();
 	~Animal();
 	Animal(int, std::string, char, float, float, std::string);
+	void print();
 
 	int get_id();
 	void set_id(int);

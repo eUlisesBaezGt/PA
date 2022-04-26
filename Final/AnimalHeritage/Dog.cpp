@@ -59,3 +59,15 @@ void Dog::set_tail(std::string tail_)
 		this->_tail = false;
 	else std::cout << "Invalid input for tail." << std::endl;
 }
+
+void Dog::printdog()
+{
+	std::cout << "ID: " << get_id() << "\t";
+	std::cout << "Name: " << get_name() << "\t";
+	std::cout << "Gender: " << get_gender() << "\t";
+	std::cout << "Age: " << get_age() << "\t";
+	std::cout << "Weight: " << get_weight() << "\t";
+	std::cout << "Color: " << get_color() << "\t";
+	std::cout << "Breed: " << get_breed() << "\t";
+	std::cout << "Tail: " << get_tail() << "\n";
+}

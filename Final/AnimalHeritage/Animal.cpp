@@ -1,5 +1,7 @@
 #include "Animal.h"
 
+#include <iostream>
+
 Animal::Animal()
 {
 	_id = -1;
@@ -46,3 +48,13 @@ void Animal::set_weight(float weight_) { this->_weight = weight_; }
 std::string Animal::get_color() { return _color; }
 
 void Animal::set_color(std::string color_) { this->_color = std::move(color_); }
+
+void Animal::print()
+{
+	std::cout << "ID: " << _id << "\t";
+	std::cout << "Name: " << _name << "\t";
+	std::cout << "Gender: " << _gender << "\t";
+	std::cout << "Age: " << _age << "\t";
+	std::cout << "Weight: " << _weight << "\t";
+	std::cout << "Color: " << _color << "\n";
+}

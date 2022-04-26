@@ -8,6 +8,7 @@ public:
 	~Dog();
 	Dog(Animal, std::string, std::string);
 	Dog(int, std::string, char, float, float, std::string, std::string, std::string);
+	void printdog();
 
 	std::string get_breed();
 	void set_breed(std::string);
